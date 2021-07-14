@@ -3,6 +3,7 @@
 :root {
   --primary-white: #fff;
   --highlight: rgb(24, 209, 169);
+  --highlight-hover: rgba(21, 180, 146, 0.795);
   --primary-dark: rgb(255,255,255,0);  
 }
 
@@ -11,7 +12,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* NAVBAR */
+/* --------NAVBAR-------- */
 .navbar{
   padding: 10px 20px;
   text-align: center;
@@ -45,4 +46,80 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--highlight);
+}
+
+/* --------HEADER-------- */
+
+.header-wrapper {
+  position: relative;
+  background: url(background-laptop.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;  
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1 {
+  color: var(--highlight);
+  text-transform: uppercase;
+}
+
+/* Typed */
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white)
+}
+
+/* Main offer */
+.btn-main-offer {
+  border: 1px solid var(--highlight);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  text-decoration: none !important
+}
+
+.btn-main-offer:hover {
+ background-color: var(--highlight-hover);
+ color: var(--primary-white);
+ transition: .2s ease-in-out;
+}
+
+/* --------ABOUT ME-------- */
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid var(--highlight)
+}
+
+.about-header {
+  color: var(--highlight);
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
 }
