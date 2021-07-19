@@ -4,7 +4,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..."></img></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,7 @@ const Navbar = () => {
                             <a className="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <a className="nav-link" href="#about-me">About</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Work</a>

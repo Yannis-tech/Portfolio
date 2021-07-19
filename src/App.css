@@ -4,7 +4,7 @@
   --primary-white: #fff;
   --highlight: rgb(24, 209, 169);
   --highlight-hover: rgba(21, 180, 146, 0.795);
-  --primary-dark: rgb(255,255,255,0);  
+  --primary-dark: rgb(255,255,255,0);
 }
 
 /* app styles */
@@ -97,4 +97,29 @@ nav ul li {
  background-color: var(--highlight-hover);
  color: var(--primary-white);
  transition: .2s ease-in-out;
+}
+
+/* --------ABOUT ME-------- */
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid var(--highlight)
+}
+
+.about-header {
+  color: var(--highlight);
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
 }
