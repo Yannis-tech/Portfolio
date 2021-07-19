@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Header />
         <AboutMe />
+        <Experience />
     </div>
   );
 }

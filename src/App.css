@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
+  --primary-dark: #212529;
   --primary-white: #fff;
+  --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
   --highlight: rgb(24, 209, 169);
   --highlight-hover: rgba(21, 180, 146, 0.795);
-  --primary-dark: rgb(255,255,255,0);
+  --highlight-comp: #d13d18;
+  
 }
 
 /* app styles */
@@ -12,7 +17,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* --------NAVBAR-------- */
+/* **************--------NAVBAR--------************** */
 .navbar{
   padding: 10px 20px;
   text-align: center;
@@ -48,7 +53,7 @@ nav ul li {
   border-top: 0.1875rem solid var(--highlight);
 }
 
-/* --------HEADER-------- */
+/* **************--------HEADER--------************** */
 
 .header-wrapper {
   position: relative;
@@ -99,7 +104,7 @@ nav ul li {
  transition: .2s ease-in-out;
 }
 
-/* --------ABOUT ME-------- */
+/* **************--------ABOUT ME--------************** */
 .photo-wrap {
   display: flex;
   justify-content: center;
@@ -121,5 +126,94 @@ nav ul li {
 @media(max-width: 468px) {
   .profile-img {
     width: 10rem;
+  }
+}
+
+/* **************--------EXPERIENCE--------************** */
+
+.experience {
+  padding: 0.7rem;
+}
+
+.experience-wrapper {
+  position: relative;
+  padding: 3.125rem 0;
+  overflow: hidden;
+}
+
+.experience h1 {
+  text-transform: uppercase;
+  color: var(--highlight)
+}
+
+.experience-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primary-grey);
+  z-index: 1;
+}
+
+.timeline-block {
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timeline-block-right {
+  float: right;
+}
+
+.timeline-block-left {
+  float: left;
+  direction: rtl;
+}
+
+.marker {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.3125rem solid var(--primary-dark-grey);
+  background: var(--highlight);
+  margin-top: 0.625rem;
+  z-index: 3;
+}
+
+.timeline-content {
+  width: 95%;
+  padding: 0 0.9375rem;
+  color: var(--primary-dark-grey);
+  direction: ltr;
+}
+
+.timeline-content h3 {
+  margin-top: 0.3125rem;
+  color: var(--highlight-comp);
+  font-weight: 900;
+}
+
+/* MEDIA */
+
+@media(max-width: 768) {
+  .experience .container {
+    padding-left: 0;
+  }
+  .experience-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+  .timeline-block-left {
+    float: none;
+    direction: ltr;
+    width: 100%;
   }
 }
