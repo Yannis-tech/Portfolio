@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
+  --primary-black: #000000;
   --primary-dark: #212529;
   --primary-white: #fff;
   --primary-light-grey: #f4f4f4;
@@ -9,8 +10,7 @@
   --highlight: rgb(24, 209, 169);
   --highlight-hover: rgba(21, 180, 146, 0.795);
   --highlight-comp: #d13d18;
-  
-}
+  }
 
 /* app styles */
 body {
@@ -215,5 +215,198 @@ nav ul li {
     float: none;
     direction: ltr;
     width: 100%;
+  }
+}
+
+/* **************--------PORTFOLIO--------************** */
+
+.portfolio-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+
+.portfolio-wrapper h1 {
+  color: var(--highlight)
+}
+
+.portfolio-image {
+  width: 15rem;
+  height: 8rem;
+  border: 1px solid var(--highlight);
+  padding: 0.5rem 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+  width: 15rem;
+  height: 8rem;
+  text-align: center;
+}
+
+/* OVERFLOW */
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--highlight-comp);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  top:50%;
+  left:50%;
+  opacity: 0;
+  color: var(--highlight);
+  font-size: 2rem;
+  border: none;
+  background: none;
+  transform: translate(-50%, -50%);
+  width: 10rem;
+  height: 5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* **************--------POPUP-------************** */
+
+/* POPUP CONTENT */
+.popup-content{
+  margin:auto;
+  background:#fff;
+  width:50%;
+  padding: 0.3rem;
+  border:1px solid #d7d7d7;
+  border-radius: 1rem;
+
+  }
+  [role=tooltip]
+  .popup-content{
+  width:200px;
+  box-shadow:0 0 3px rgba(0,0,0,.16);
+  border-radius:5px}
+  .popup-overlay{
+  background:rgba(0,0,0,.5)
+  }
+  [data-popup=tooltip]
+  .popup-overlay{
+  background:transparent
+  }
+  .popup-arrow{
+  -webkit-filter:drop-shadow(0 -3px 3px rgba(0,0,0,.16));
+  filter:drop-shadow(0 -3px 3px rgba(0,0,0,.16));
+  color:#fff;stroke-width:2px;stroke:#d7d7d7;
+  stroke-dasharray:30px;
+  stroke-dashoffset:-54px;
+  left:0;right:0;top:0;bottom:0
+  }
+
+.modal-popup {
+  font-size: 16px;
+  border-radius: 0.5rem;
+  
+/* MODAL */  
+}
+.modal-popup > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.3125rem;
+}
+.modal-popup > .content {
+  width: 100%;
+  padding: 1rem 1.5rem;
+}
+.modal-popup > .actions {
+  width: 100%;
+  padding: 0.625rem 0.35rem;
+  margin: auto;
+  text-align: center;
+}
+.modal-popup > .close {
+  cursor: pointer;
+  position: absolute;
+  right: -0.625rem;
+  top: -0.625rem;
+  font-size: 19px;
+  font-weight: bold;
+  background: #fff;
+  border-radius: 1.25rem;
+  line-height: 1.25rem;
+  border: 1px solid #cfcece;;
+}
+
+.portfolio-image-popupbox {
+  width:100%;
+}
+
+.hyper-link{
+  color: #000;
+  background: rgb(24, 209, 169,0.6);
+  text-decoration: none;
+}
+
+.hyper-link:hover{
+  color: var(--primary-dark-grey);
+  background: var(--highlight-hover);
+}
+
+/* MODAL BUTTON */ 
+.btn-popup {
+  width: 9rem;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  background-color: var(--primary-dark-grey);
+  color: var(--primary-white);
+  margin: 2rem;
+  text-decoration: none;
+}
+
+.btn-popup-view {
+  border: 1px solid var(--highlight);
+}
+
+.btn-popup-view:hover {
+ background-color: var(--highlight-hover);
+ color: var(--primary-white);
+ transition: .2s ease-in-out;
+}
+
+.btn-popup-close {
+  border: 1px solid var(--highlight-comp);
+}
+
+.btn-popup-close:hover {
+ background-color: var(--highlight-comp);
+ color: var(--primary-white);
+ transition: .2s ease-in-out;
+}
+
+/* MEDIA */
+@media (max-width : 768px){
+  .popup-content{
+    width:90%;
+  }
+}
+
+@media (max-width : 768px){
+  .btn-popup{
+    margin: 0.1rem
   }
 }
