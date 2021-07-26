@@ -60,7 +60,7 @@ nav ul li {
   background: url(background-laptop.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;  
+  height: 100vh;  
 }
 
 .main-info {
@@ -457,27 +457,13 @@ nav ul li {
 }
 
 .contact textarea {
-  height: 12.5rem !important;
+  height: 12.55em !important;
 }
 
 .contact-btn {
   margin: 1rem 0 0 0;
   width: 100%;
   background: none;
-}
-
-.line {
-  position: relative;
-  top: -0.8rem;
-  width: 0;
-  height: 0.125rem;
-  background: var(--highlight);
-  display: inline-block;
-}
-
-.input:focus+.line, textarea:focus+.line {
-  width: 100%;
-  transition: width 0.5s ease-in-out;
 }
 
 .input.form-control {
@@ -511,4 +497,27 @@ nav ul li {
   .contact p {
     padding: 0 0.4rem;
   }
+}
+
+/* **************--------FOOTER--------************** */
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--highlight);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }

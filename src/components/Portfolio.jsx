@@ -11,7 +11,7 @@ import Popup from 'reactjs-popup';
 
 const Portfolio = () => {
     return (
-        <div className="portfolio-wrapper">
+        <div className="portfolio-wrapper" id="portfolio">
             <div className="container">
                 <h1 className="text-uppercase text-center mb-5">Portfolio</h1>
                 <div className="image-box-wrapper row row-cols-auto justify-content-center">

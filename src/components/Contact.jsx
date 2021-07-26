@@ -1,5 +1,5 @@
 import { useState } from "react";
-import emailjs, { send } from "emailjs-com";
+import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 
 const Contact = () => {
@@ -35,7 +35,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <div className="text-center">
                 <h1>Contact me</h1>
                 <p>Please fill out the form. I will contact you as soon as possible.</p>
@@ -54,7 +54,6 @@ const Contact = () => {
                                     name="name"
                                     {...register("name", { required: true, maxLength: 25 })}
                                 />
-                                <div className="line"></div>
                                 {errors.name?.type === "required" && <span className="error-message">Please provide your name</span>}
                             </div>
                             {/* PHONE INPUT */}
@@ -65,7 +64,6 @@ const Contact = () => {
                                     placeholder="Phone Number"
                                     name="phone"
                                 />
-                                <div className="line"></div>
                             </div>
                             {/* EMAIL INPUT */}
                             <div className="text-center">
@@ -81,7 +79,6 @@ const Contact = () => {
                                         }
                                     })}
                                 />
-                                <div className="line"></div>
                                 {errors.email?.type === "required" && <span className="error-message">Please provide a valid email address</span>}
                                 {errors.email?.type === "pattern" && <span className="error-message">Entered value does not match email format</span>}
                             </div>
@@ -94,7 +91,6 @@ const Contact = () => {
                                     name="subject"
                                     {...register("subject", { required: true, maxLength: 100 })}
                                 />
-                                <div className="line"></div>
                                 {errors.subject && errors.subject.type === "required" && <span className="error-message">This is required</span>}
                                 {errors.subject && errors.subject.type === "maxLength" && <span className="error-message">Subject must not be longer than 100 characters.</span>}
                             </div>
