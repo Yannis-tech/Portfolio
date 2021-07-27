@@ -49,6 +49,10 @@ nav ul li {
   height: 3rem !important;
 }
 
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--highlight);
+}
+
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--highlight);
 }
