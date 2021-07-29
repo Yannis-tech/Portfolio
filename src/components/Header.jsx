@@ -13,7 +13,7 @@ const Header = () => {
                 backDelay={3000}  
                 loop          
             />
-            <a href="#" className="btn-main-offer">Contact me</a>
+            <a href="#contact" className="btn-main-offer">Contact me</a>
             </div>
         </div>
     );
