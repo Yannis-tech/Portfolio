@@ -1,4 +1,4 @@
-import logo from "../logo.svg";
+import logo from "../assets/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
@@ -8,9 +8,9 @@ import { Link } from "react-scroll";
 const Navbar = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
             <div className="container-lg">
-                <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..."></img></a>
+                <a className="navbar-brand" href="#home"><img className="logo" src={logo} alt="logo..."></img></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
                 </button>
@@ -24,6 +24,10 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link smooth={true} className="nav-link d-none d-lg-block" aria-current="page" to="about-me">About</Link>
                             <Link smooth={true} offset={-70} className="nav-link d-lg-none" to="about-me" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">About</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link smooth={true} className="nav-link d-none d-lg-block" aria-current="page" to="skills">Skills</Link>
+                            <Link smooth={true} offset={-70} className="nav-link d-lg-none" to="skills" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Skills</Link>
                         </li>
                         <li className="nav-item">
                             <Link smooth={true} className="nav-link d-none d-lg-block" aria-current="page" to="experience">Experience</Link>

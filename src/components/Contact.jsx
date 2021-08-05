@@ -17,7 +17,6 @@ const Contact = () => {
             templateID,
             {
                 name: data.name,
-                phone: data.phone,
                 email: data.email,
                 subject: data.subject,
                 description: data.description
@@ -56,15 +55,6 @@ const Contact = () => {
                                 />
                                 {errors.name?.type === "required" && <span className="error-message">Please provide your name</span>}
                             </div>
-                            {/* PHONE INPUT */}
-                            <div className="text-center">
-                                <input
-                                    type="text"
-                                    className="form-control"
-                                    placeholder="Phone Number"
-                                    name="phone"
-                                />
-                            </div>
                             {/* EMAIL INPUT */}
                             <div className="text-center">
                                 <input
@@ -91,8 +81,8 @@ const Contact = () => {
                                     name="subject"
                                     {...register("subject", { required: true, maxLength: 100 })}
                                 />
-                                {errors.subject && errors.subject.type === "required" && <span className="error-message">This is required</span>}
-                                {errors.subject && errors.subject.type === "maxLength" && <span className="error-message">Subject must not be longer than 100 characters.</span>}
+                                {errors.subject && errors.subject?.type === "required" && <span className="error-message">This is required</span>}
+                                {errors.subject && errors.subject?.type === "maxLength" && <span className="error-message">Subject must not be longer than 100 characters.</span>}
                             </div>
                         </div>
                         <div className="col-md-6 col-xs-12">
@@ -107,8 +97,8 @@ const Contact = () => {
                                 >
                                 </textarea>
                                 <div className="line"></div>
-                                {errors.description && errors.subject.type === "required" && <span>This is required</span>}
-                                {errors.description?.type === "maxLength" && <span className="error-message">Subject must not be longer than 500 characters.</span>}
+                                {errors.description && errors.description?.type === "required" && <span className="error-message">This is required</span>}
+                                {errors.description?.type === "maxLength" && <span className="error-message">Text must not be longer than 500 characters.</span>}
                                 <button className="btn-main-offer contact-btn" type="submit">
                                     Contact me
                                 </button>

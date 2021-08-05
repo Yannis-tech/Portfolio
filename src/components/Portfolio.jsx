@@ -1,8 +1,8 @@
 // PICTURES
-import coding from "../images/coding.jpg"
-import hackathon from "../images/hackathon.jpg"
-import itServer from "../images/it-server.jpg"
-import map from "../images/map.png"
+import coding from "../assets/coding.jpg"
+import hackathon from "../assets/hackathon.jpg"
+import itServer from "../assets/it-server.jpg"
+import map from "../assets/map.png"
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -14,10 +14,11 @@ const Portfolio = () => {
         <div className="portfolio-wrapper" id="portfolio">
             <div className="container">
                 <h1 className="text-uppercase text-center mb-5">Portfolio</h1>
-                <div className="image-box-wrapper row row-cols-auto justify-content-center">
+                <div className="image-box-wrapper">
                     <div className="portfolio-image-box">
-                        <img className="portfolio-image" src={coding} alt="Coding Project..." />
-                        <div className="overflow"></div>
+                            <p>Coding Project</p>
+                            <img className="portfolio-image" src={coding} alt="Coding Project..." />
+                            <div className="overflow"></div>
                         <Popup
                             trigger={<button className="portfolio-icon"> <FontAwesomeIcon icon={faSearchPlus} /></button>}
                             modal
@@ -56,6 +57,7 @@ const Portfolio = () => {
                     </div>
                     {/* Next Project */}
                     <div className="portfolio-image-box">
+                        <p>Hackathon Project</p>
                         <img className="portfolio-image" src={hackathon} alt="Hackathon Project..." />
                         <div className="overflow"></div>
                         <Popup
@@ -96,6 +98,7 @@ const Portfolio = () => {
                     </div>
                     {/* Next Project */}
                     <div className="portfolio-image-box">
+                        <p>Server Project</p>
                         <img className="portfolio-image" src={itServer} alt="IT-Server Project..." />
                         <div className="overflow"></div>
                         <Popup
@@ -136,6 +139,7 @@ const Portfolio = () => {
                     </div>
                     {/* Next Project */}
                     <div className="portfolio-image-box">
+                        <p>GIS Project</p>
                         <img className="portfolio-image" src={map} alt="GIS Project..." />
                         <div className="overflow"></div>
                         <Popup
