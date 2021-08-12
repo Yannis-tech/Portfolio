@@ -26,14 +26,63 @@ body {
 }
 
 /* **************--------NAVBAR--------************** */
-.navbar{
+
+/* Active Navbar */
+
+.navbar.active{
   padding: 10px 20px;
   text-align: center;
   background: var(--background-grey);
+  transition: background-color 0.4s ease-out;
 }
 
+.navbar-nav.active > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  font-weight: 600;  
+  color: var(--primary-light-grey);
+  border-top: 0.1875rem solid var(--background-grey);
+  transition: border-top 0.4s ease-out;
+}
+
+.navbar-nav.active > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-light-grey);
+}
+
+.navbar-nav.active > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-light-grey);
+}
+
+/* Inactive Navbar */
+
+.navbar{
+  padding: 10px 20px;
+  text-align: center;
+  background: transparent;
+  transition: background-color 0.4s ease-out;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  font-weight: 600;  
+  color: var(--highlight);
+  border-top: 0.1875rem solid #FEFEFE;
+  transition: border-top 0.4s ease-out;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--highlight-dark);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--highlight-dark);
+}
+
+/* General Settings */
+
 .logo{
-  width: 8rem; 
+  width: 7rem;
 }
 
 nav a.nav-link {
@@ -45,26 +94,10 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-  font-weight: 600;  
-  color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--background-grey);
-}
-
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
   height: 3rem !important;
-}
-
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid var(--primary-light-grey);
-}
-
-.navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-light-grey);
 }
 
 /* **************--------HEADER--------************** */
@@ -112,7 +145,9 @@ nav ul li {
 .btn-main-offer {
   border: 1px solid var(--highlight);
   text-transform: uppercase;
+  font-weight: bold;
   border-radius: 0;
+  background: rgba(245, 243, 244, 0.6);
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--highlight);
   margin: 2rem;
@@ -329,17 +364,23 @@ nav ul li {
   }
 }
 
-.portfolio-image-box p {
-    color: var(--primary-dark);
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
 .portfolio-image-box {
   width: 22rem;
   height: 10rem;
   margin: auto;
   text-align: center;
+}
+
+@media(max-width: 768px) {
+  .portfolio-image-box {
+    width: 16rem;
+  }
+}
+
+.portfolio-image-box p {
+    color: var(--primary-dark);
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .portfolio-image {
@@ -365,6 +406,11 @@ nav ul li {
   opacity: 0;
   background: var(--primary-black);
   }
+@media(max-width: 768px) {
+  .overflow {
+    margin: auto;
+  }
+}
 
 .portfolio-image-box:hover .overflow {
   opacity: 60%;

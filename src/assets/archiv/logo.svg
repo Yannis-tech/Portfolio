@@ -4,9 +4,9 @@
 <svg
    version="1.1"
    id="svg9"
-   width="112.33916"
-   height="39.898399"
-   viewBox="0 0 112.33916 39.8984"
+   width="119"
+   height="51"
+   viewBox="0 0 119 51"
    sodipodi:docname="logo.svg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -16,6 +16,20 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs13">
+    <rect
+       x="-6.4999971"
+       y="-6.5"
+       width="110"
+       height="60"
+       id="rect6133" />
+    <linearGradient
+       id="linearGradient865"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop863" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient856">
@@ -103,28 +117,29 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:snap-grids="true"
-     inkscape:zoom="2.9225"
-     inkscape:cx="-12.83148"
-     inkscape:cy="-22.070145"
+     inkscape:zoom="4.1330391"
+     inkscape:cx="-9.5571319"
+     inkscape:cy="1.8146453"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="g136"
-     width="103.13067px"
-     height="38.8984px">
+     width="141.33916px"
+     height="56.898399px"
+     inkscape:snap-bbox-midpoints="true">
     <inkscape:grid
        type="xygrid"
        id="grid22789"
-       originx="-85.311332"
-       originy="-20.124303" />
+       originx="-96.499997"
+       originy="-26.5" />
   </sodipodi:namedview>
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
      id="g15"
-     transform="translate(-85.311327,-20.124303)">
+     transform="translate(-96.499992,-26.5)">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.791032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 7637.5901,546.82082 c -76.4889,-14.09316 -75.8766,-22.70106 1.8369,-25.82369"
@@ -134,18 +149,6 @@
     <g
        id="g136"
        style="fill:#f9f9f9">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.3899px;line-height:1.25;font-family:Rufina;-inkscape-font-specification:'Rufina, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.759745;stroke-opacity:1"
-         x="128.3929"
-         y="41.908287"
-         id="text2169"
-         transform="scale(0.88923645,1.1245603)"><tspan
-           sodipodi:role="line"
-           id="tspan2167"
-           x="128.3929"
-           y="41.908287"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.3899px;font-family:Rufina;-inkscape-font-specification:'Rufina, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.759745;stroke-opacity:1">yannis</tspan></text>
       <g
          id="g26524"
          transform="matrix(0.07854196,0,0,0.07854196,13.596773,34.41874)"
@@ -203,18 +206,47 @@
              style="fill:#f9f9f9" />
         </g>
       </g>
+      <g
+         id="g8123"
+         transform="translate(-1.4955087,-1.6016246)"
+         style="fill:#ffffff">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.3899px;line-height:1.25;font-family:Rufina;-inkscape-font-specification:'Rufina, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.759745;stroke-opacity:1"
+           x="138.46628"
+           y="53.088451"
+           id="text2169"
+           transform="scale(0.88923645,1.1245603)"><tspan
+             sodipodi:role="line"
+             id="tspan2167"
+             x="138.46628"
+             y="53.088451"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.3899px;font-family:Rufina;-inkscape-font-specification:'Rufina, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.759745;stroke-opacity:1">yannis</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:16.9748px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.42437;stroke-opacity:1"
+           x="110.6502"
+           y="63.278751"
+           id="text10206"
+           transform="scale(0.96533752,1.0359071)"><tspan
+             sodipodi:role="line"
+             id="tspan10204"
+             x="110.6502"
+             y="63.278751"
+             style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.42437;stroke-opacity:1">@</tspan></text>
+      </g>
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect998"
+         width="115"
+         height="45"
+         x="98.499992"
+         y="29.5" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:28.096px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.7024;stroke-opacity:1"
-         x="90.045746"
-         y="51.771843"
-         id="text10206"
-         transform="scale(0.96533752,1.0359071)"><tspan
-           sodipodi:role="line"
-           id="tspan10204"
-           x="90.045746"
-           y="51.771843"
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.7024;stroke-opacity:1">@</tspan></text>
+         transform="translate(96.499992,26.5)"
+         id="text6131"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect6133);fill:#000000;fill-opacity:1;stroke:none" />
     </g>
   </g>
 </svg>
