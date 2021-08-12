@@ -2,7 +2,7 @@
 import coding from "../assets/coding.jpg"
 import hackathon from "../assets/hackathon.jpg"
 import itServer from "../assets/it-server.jpg"
-import map from "../assets/map.png"
+import map from "../assets/map.jpg"
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
