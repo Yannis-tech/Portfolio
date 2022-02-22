@@ -9,32 +9,51 @@ const Experience = () => {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2020-2021</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio aspernatur sunt suscipit praesentium incidunt? Repudiandae quidem dignissimos nostrum praesentium repellat dolorum! Ex praesentium molestiae, voluptatibus minima perspiciatis velit eligendi! Exercitationem laudantium architecto voluptatibus error repudiandae excepturi autem id doloribus amet?</p>
+                        <h3>2020 - today</h3>
+                        <p>GIS-Specialist at <b>DMT Engineering Surveying GmbH {'&'} Co. KG</b></p>
                     </div>
                 </div>
                 {/* Left Block */}
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2019-2020</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio aspernatur sunt suscipit praesentium incidunt? Repudiandae quidem dignissimos nostrum praesentium repellat dolorum! Ex praesentium molestiae, voluptatibus minima perspiciatis velit eligendi! Exercitationem laudantium architecto voluptatibus error repudiandae excepturi autem id doloribus amet?</p>
+                        <h3>2013 - 2020</h3>
+                        <p>(Student) Assistant at <b>Kempfert Geotechnik GmbH</b></p><p></p>
                     </div>
                 </div>
                 {/* Right Block */}
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2018-2016</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio aspernatur sunt suscipit praesentium incidunt? Repudiandae quidem dignissimos nostrum praesentium repellat dolorum! Ex praesentium molestiae, voluptatibus minima perspiciatis velit eligendi! Exercitationem laudantium architecto voluptatibus error repudiandae excepturi autem id doloribus amet?</p>
+                        <h3>2018 - 2019</h3>
+                        <p>Internship with subsequent master thesis at <b>Dataport AöR</b></p>
                     </div>
                 </div>
                 {/* Left Block */}
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2016-2015</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio aspernatur sunt suscipit praesentium incidunt? Repudiandae quidem dignissimos nostrum praesentium repellat dolorum! Ex praesentium molestiae, voluptatibus minima perspiciatis velit eligendi! Exercitationem laudantium architecto voluptatibus error repudiandae excepturi autem id doloribus amet?</p>
+                        <h3>2016 - 2019</h3>
+                        <p>M.Sc. Geodesy and geoinformatics at <b>HafenCity Universität Hamburg</b></p>
+                        <p><b>Focus:</b> Geoinformation Technology</p>
+                    </div>
+                </div>
+                {/* Right Block */}
+                <div className="timeline-block timeline-block-right">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3>2014 - 2016</h3>
+                        <p>M.Sc. Geosciences at <b>Universität Hamburg</b></p>
+                        <p><em>Early leave - change of specialization</em></p>
+                    </div>
+                </div>
+                {/* Left Block */}
+                <div className="timeline-block timeline-block-left">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3>2011 - 2015</h3>
+                        <p>B.Sc. Geosciences at <b>Universität Hamburg</b></p>
+                        <p><b>Focus:</b> Biogeochemistry</p>
                     </div>
                 </div>
             </div>

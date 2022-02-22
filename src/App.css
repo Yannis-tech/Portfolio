@@ -330,7 +330,7 @@ nav ul li {
 /* **************--------PORTFOLIO--------************** */
 
 .portfolio-wrapper {
-  background: var(--primary-white);
+  background: var(--primary-light-grey);
   padding: 5rem 0;
 }
 

@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHtml5, faCss3, faJs, faReact, faGitAlt } from "@fortawesome/free-brands-svg-icons"
+import { faHtml5, faCss3, faJs, faReact, faGitAlt} from "@fortawesome/free-brands-svg-icons"
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
     return (
@@ -25,9 +26,14 @@ const Skills = () => {
                         <FontAwesomeIcon icon={faReact} size="6x" style={{ color: "#62DBFB" }} />
                 </div>
                 <div className="col skills-col">
+                        <h3>SQL</h3>
+                        <FontAwesomeIcon icon={faDatabase} size="6x" style={{ color: "#183153" }} />
+                </div>
+                <div className="col skills-col">
                         <h3>Git</h3>
                         <FontAwesomeIcon icon={faGitAlt} size="6x" style={{ color: "#F05030" }} />
                 </div>
+
             </div>
         </div>
 

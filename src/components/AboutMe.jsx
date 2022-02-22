@@ -1,4 +1,4 @@
-import author from "../me.png"
+import author from "../assets/me.png"
 
 const AboutMe = () => {
     return (
@@ -13,7 +13,11 @@ const AboutMe = () => {
                     <div className="col-lg-6 col-12">
                         <h1 className="about-header">About me</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            I am a web developer with a background in geoinformation technology.
+                        </p>
+                        <p></p>
+                        <p>
+                            It is very important for geo-informaticians to have a sense of color and design. In a badly designed map the message can be lost - no matter how important it has been. Currently I would like to use my experience more in the space of web development.
                         </p>
                     </div>
                 </div>

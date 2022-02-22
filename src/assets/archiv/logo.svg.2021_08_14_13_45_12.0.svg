@@ -213,20 +213,20 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none"
-           x="104.15747"
-           y="74.851624"
+           x="74.157471"
+           y="44.851624"
            id="text3719"><tspan
              sodipodi:role="line"
              id="tspan3717"
-             x="104.15747"
-             y="74.851624">@yannis</tspan></text>
+             x="74.157471"
+             y="44.851624">@yannis</tspan></text>
         <rect
-           style="fill:none;stroke:#000000;stroke-opacity:1"
+           style="fill:none;stroke:#000000;stroke-width:0.5818;stroke-opacity:1"
            id="rect15347"
-           width="120"
-           height="105"
-           x="101.57935"
-           y="-18.398375" />
+           width="120.4182"
+           height="35.418201"
+           x="101.37025"
+           y="13.892525" />
       </g>
       <rect
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"

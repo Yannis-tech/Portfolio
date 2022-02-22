@@ -14,9 +14,10 @@ const Portfolio = () => {
         <div className="portfolio-wrapper" id="portfolio">
             <div className="container">
                 <h1 className="text-uppercase text-center mb-5">Portfolio</h1>
+                <h2 className="text-center mb-5">Projects are still underway</h2>
                 <div className="image-box-wrapper">
                     <div className="portfolio-image-box">
-                            <p>Coding Project</p>
+                            <p>Issue Tracker</p>
                             <img className="portfolio-image" src={coding} alt="Coding Project..." />
                             <div className="overflow"></div>
                         <Popup
@@ -32,7 +33,8 @@ const Portfolio = () => {
                                     <div className="header"> Coding Project </div>
                                     <div className="content">
                                         <img className="portfolio-image-popupbox" src={coding} alt="Coding Project" />
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.</p>
+                                        <p></p>
+                                        <p>Ticket system based on native Javascript and Firebase</p>
                                         <b>Github: </b><a className="hyper-link" href="https://github.com" target="_blank" rel="noopener noreferrer">https://github.com</a>
                                     </div>
                                     <div className="actions">
@@ -57,7 +59,7 @@ const Portfolio = () => {
                     </div>
                     {/* Next Project */}
                     <div className="portfolio-image-box">
-                        <p>Hackathon Project</p>
+                        <p>Placeholder 2</p>
                         <img className="portfolio-image" src={hackathon} alt="Hackathon Project..." />
                         <div className="overflow"></div>
                         <Popup
@@ -70,7 +72,7 @@ const Portfolio = () => {
                                     <button className="close" onClick={close}>
                                         &times;
                                     </button>
-                                    <div className="header"> Hackathon Project </div>
+                                    <div className="header">Placeholder 2</div>
                                     <div className="content">
                                         <img className="portfolio-image-popupbox" src={hackathon} alt="Hackathon Project" />
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.</p>
@@ -98,7 +100,7 @@ const Portfolio = () => {
                     </div>
                     {/* Next Project */}
                     <div className="portfolio-image-box">
-                        <p>Server Project</p>
+                        <p>Placeholder 3</p>
                         <img className="portfolio-image" src={itServer} alt="IT-Server Project..." />
                         <div className="overflow"></div>
                         <Popup
@@ -111,7 +113,7 @@ const Portfolio = () => {
                                     <button className="close" onClick={close}>
                                         &times;
                                     </button>
-                                    <div className="header"> Server Project </div>
+                                    <div className="header">Placeholder 3</div>
                                     <div className="content">
                                         <img className="portfolio-image-popupbox" src={itServer} alt="IT-Server Project" />
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.</p>
@@ -139,7 +141,7 @@ const Portfolio = () => {
                     </div>
                     {/* Next Project */}
                     <div className="portfolio-image-box">
-                        <p>GIS Project</p>
+                        <p>Placeholder 4</p>
                         <img className="portfolio-image" src={map} alt="GIS Project..." />
                         <div className="overflow"></div>
                         <Popup
@@ -152,7 +154,7 @@ const Portfolio = () => {
                                     <button className="close" onClick={close}>
                                         &times;
                                     </button>
-                                    <div className="header"> GIS Project </div>
+                                    <div className="header">Placeholder 4</div>
                                     <div className="content">
                                         <img className="portfolio-image-popupbox" src={map} alt="GIS Project" />
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.</p>

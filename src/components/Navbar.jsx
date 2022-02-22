@@ -11,6 +11,7 @@ const Navbar = () => {
 
     //Default theme on unscrolled page
     const [navbar, setNavbar] = useState(false);
+    const [menu, setMenu] = useState("#01627F");
 
     //Set color theme depending on scroll
     const changeNavbar = () => {
@@ -19,16 +20,24 @@ const Navbar = () => {
             : setNavbar(false)
     }
 
+    //Set color theme depending on scroll
+    const changeMenu = () => {
+        window.scrollY > 10
+            ? setMenu("#f4f4f4")
+            : setMenu("#01627F")
+    }
+
     useEffect(() => {
         window.addEventListener("scroll", debounce(changeNavbar, delay))
+        window.addEventListener("scroll", debounce(changeMenu, delay))
     })
 
     return (
         <nav className={navbar ? "navbar active navbar-expand-lg fixed-top" : "navbar navbar-expand-lg fixed-top"}>
             <div className="container-lg">
-                <a className="navbar-brand" href="#home"><Logo className="logo" /></a>
+                {/*<a className="navbar-brand" href="#home"><Logo className="logo" /></a>*/}
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
+                    <FontAwesomeIcon icon={faBars} style={{ color: menu }} />
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
