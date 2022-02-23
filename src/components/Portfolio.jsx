@@ -1,6 +1,6 @@
 // PICTURES
 import coding from "../assets/coding.jpg"
-import hackathon from "../assets/hackathon.jpg"
+import portfolio from "../assets/portfolio.png"
 import itServer from "../assets/it-server.jpg"
 import map from "../assets/map.jpg"
 // FONTAWESOME IMPORTS
@@ -59,8 +59,8 @@ const Portfolio = () => {
                     </div>
                     {/* Next Project */}
                     <div className="portfolio-image-box">
-                        <p>Placeholder 2</p>
-                        <img className="portfolio-image" src={hackathon} alt="Hackathon Project..." />
+                        <p>Personal Portfolio</p>
+                        <img className="portfolio-image" src={portfolio} alt="Portfolio Project..." />
                         <div className="overflow"></div>
                         <Popup
                             trigger={<button className="portfolio-icon"> <FontAwesomeIcon icon={faSearchPlus} /></button>}
@@ -72,17 +72,17 @@ const Portfolio = () => {
                                     <button className="close" onClick={close}>
                                         &times;
                                     </button>
-                                    <div className="header">Placeholder 2</div>
+                                    <div className="header">Personal Portfolio</div>
                                     <div className="content">
-                                        <img className="portfolio-image-popupbox" src={hackathon} alt="Hackathon Project" />
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.</p>
-                                        <b>Github: </b><a className="hyper-link" href="https://github.com" target="_blank" rel="noopener noreferrer">https://github.com</a>
+                                        <img className="portfolio-image-popupbox" src={portfolio} alt="Hackathon Project" />
+                                        <p>This is my personal portfolio page build with react.</p>
+                                        <b>Github: </b><a className="hyper-link" href="https://github.com/Yannis-tech/Portfolio" target="_blank" rel="noopener noreferrer">https://github.com/Yannis-tech/Portfolio</a>
                                     </div>
                                     <div className="actions">
                                         <button
                                             className="btn-popup btn-popup-view"
                                             onClick={() => {
-                                                window.open("https://github.com");
+                                                window.open("https://atyannis.netlify.app/");
                                             }}>
                                             View project
                                         </button>

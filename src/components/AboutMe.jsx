@@ -16,9 +16,8 @@ const AboutMe = () => {
                             I am a web developer with a background in geoinformation technology.
                         </p>
                         <p></p>
-                        <p>
-                            It is very important for geo-informaticians to have a sense of color and design. In a badly designed map the message can be lost - no matter how important it has been. Currently I would like to use my experience more in the space of web development.
-                        </p>
+                        <p>I am a well-organized person, a problem solver, and tend to grasp things quickly especially software that is unknown to me. I always strive to learn about new topics and have a serious sense of responsibility.</p>
+                        <p>Currently, I am trying to combine my good knowledge of geoinformatics with web development to tackle exciting problems.</p>
                     </div>
                 </div>
             </div>
