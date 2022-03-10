@@ -9,5 +9,4 @@ I am confident that the combination of my skills makes it possible to tackle exc
 <a href="www.linkedin.com/in/yannis-pigorsch"><img alt="LinkedIn" src="https://img.shields.io/badge/Yannis Pigorsch-%230077B5.svg?style=flat&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:yannis.pigorsch@gmx.de"><img alt="Email" src="https://img.shields.io/badge/yannis.pigorsch@gmx.de-D14836?style=flat&logo=gmail&logoColor=white"/></a>
 <a href="https://atyannis.netlify.app/"><img alt="Website" src="https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=atyannis.netlify.app&up_color=green&up_message=online&url=https://atyannis.netlify.app/"/></a>
-<a href="./"><img alt="Resume" src="https://img.shields.io/badge/Resume_(last_updated)--green"/></a>
 </div><br/>
