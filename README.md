@@ -1,4 +1,4 @@
-# Hi, I'm Yannis Pigorsch 👋
+# Hi, I'm Yannis 👋
 
 Since finishing my master of Geomatics I'm working as a GIS Specialist in the utility sector. 
 
