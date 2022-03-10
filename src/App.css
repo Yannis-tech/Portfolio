@@ -281,6 +281,7 @@ nav ul li {
 .timeline-block-left {
   float: left;
   direction: rtl;
+  text-align: right;
 }
 
 .marker {
@@ -555,6 +556,15 @@ nav ul li {
  color: var(--primary-white);
  transition: .2s ease-in-out;
 }
+
+.btn-popup-view:disabled,
+    button[disabled] {
+        border: 1px solid #999999;
+        background-color: darkgrey;
+        color: #fff;
+        padding: 10px;
+        cursor: not-allowed;
+    }
 
 /* MEDIA */
 @media (max-width : 768px){

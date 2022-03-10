@@ -42,7 +42,7 @@ const Portfolio = () => {
                                             className="btn-popup btn-popup-view"
                                             onClick={() => {
                                                 window.open("https://github.com");
-                                            }}>
+                                            }} disabled>
                                             View project
                                         </button>
                                         <button
@@ -124,7 +124,7 @@ const Portfolio = () => {
                                             className="btn-popup btn-popup-view"
                                             onClick={() => {
                                                 window.open("https://github.com");
-                                            }}>
+                                            }} disabled>
                                             View project
                                         </button>
                                         <button
@@ -165,7 +165,7 @@ const Portfolio = () => {
                                             className="btn-popup btn-popup-view"
                                             onClick={() => {
                                                 window.open("https://github.com");
-                                            }}>
+                                            }} disabled>
                                             View project
                                         </button>
                                         <button

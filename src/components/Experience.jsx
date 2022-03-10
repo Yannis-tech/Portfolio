@@ -34,7 +34,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2016 - 2019</h3>
-                        <p>M.Sc. Geodesy and geoinformatics at <b>HafenCity Universität Hamburg</b></p>
+                        <p>M.Sc. Geomatics (Geodesy and Geoinformatics) at <b>HafenCity Universität Hamburg</b></p>
                         <p><b>Focus:</b> Geoinformation Technology</p>
                     </div>
                 </div>
