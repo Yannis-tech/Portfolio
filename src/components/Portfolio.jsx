@@ -14,7 +14,7 @@ const Portfolio = () => {
         <div className="portfolio-wrapper" id="portfolio">
             <div className="container">
                 <h1 className="text-uppercase text-center mb-5">Portfolio</h1>
-                <h2 className="text-center mb-5">Projects are still underway</h2>
+                <h2 className="text-center mb-5">Projects are currently unfinished</h2>
                 <div className="image-box-wrapper">
                     <div className="portfolio-image-box">
                             <p>Issue Tracker</p>

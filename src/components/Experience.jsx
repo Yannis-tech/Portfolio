@@ -56,6 +56,15 @@ const Experience = () => {
                         <p><b>Focus:</b> Biogeochemistry</p>
                     </div>
                 </div>
+                {/* Right Block */}
+                <div className="timeline-block timeline-block-right">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3>2002 - 2010</h3>
+                        <p><b>Albrecht-Thaer-Gymnasium</b></p>
+                        <p><em>General qualification for university entrance</em></p>
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -4,6 +4,7 @@ const Header = () => {
     return (
         <div className="header-wrapper" id="home">
             <div className="main-info">
+                <h3>Yannis Pigorsch</h3>
                 <h1>GIS Specialist / Web Developer</h1>
             <Typed
                 className="typed-text"

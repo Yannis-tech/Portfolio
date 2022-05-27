@@ -2,7 +2,7 @@
 
 Since finishing my master of Geomatics I'm working as a GIS Specialist in the utility sector. 
 
-Programming languages have always been a part of my academic journey.  Currently, I want to dive deeper into the field of web and software development. 
+Programming languages have always been a part of my academic journey. Currently, I want to dive deeper into the field of web and software development. 
 I am confident that the combination of my skills makes it possible to tackle exciting new problems.
 
 <div align="center">
