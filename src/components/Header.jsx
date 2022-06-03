@@ -1,4 +1,4 @@
-import Typed from "react-typed";
+import Typist from 'react-text-typist';
 
 const Header = () => {
     return (
@@ -6,9 +6,10 @@ const Header = () => {
             <div className="main-info">
                 <h3>Yannis Pigorsch</h3>
                 <h1>GIS Specialist / Web Developer</h1>
-                <Typed
+                <Typist
                     className="typed-text"
-                    strings={["HTML5", "CSS3", "Javascript ES6", "React", "SQL", "Git", "Geographic Information Systems", "FME"]}
+                    sentences={["HTML5", "CSS3", "Javascript ES6", "React", "SQL", "Git", "Geographic Information Systems", "FME"]}
+                    pauseTime={1000}
                     typeSpeed={40}
                     backSpeed={60}  
                     backDelay={3000}  
